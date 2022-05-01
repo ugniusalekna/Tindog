@@ -1,0 +1,206 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.white-section {
+  background-color: #FFFFFF;
+}
+
+.colored-section {
+  background-color: #FF4C68;
+  color: #FFFFFF;
+}
+
+.pastel-section {
+  background-color: #EF8172;
+  color: #FFFFFF;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+/* Buttons */
+
+.btn-download {
+  font-size: 1.4rem;
+  margin: 5% 3% 5% 0;
+  width: 12.5rem;
+  height: 3.5rem;
+  font-weight: 500;
+}
+
+/* Title */
+
+#title {
+  font-size: 1.5rem;
+  height: 48rem;
+  /* overflow: hidden; - instead of using z-index*/
+}
+
+.img-iphone {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width: 1332px) and (min-width: 992px){
+  .img-iphone {
+    position: static;
+    transform: rotate(0);
+    width: 80%;
+    margin-left: 10%;
+  }
+  #title {
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  #title {
+    height: auto;
+    text-align: center;
+  }
+  .img-iphone {
+    position: static;
+    transform: rotate(0);
+    width: 80%;
+  }
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  z-index: 1; /* Not necessary when we have a position specified */
+}
+
+.features-box {
+  padding: 0 6%;
+}
+
+.features-icon {
+  color: #EF8172;
+}
+
+.features-icon:hover {
+  color: #FF4C68;
+}
+
+.features-title {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.features-text {
+  font-weight: 400;
+}
+
+/* Testimonials */
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+/* Press */
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-image {
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.pricing-text {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-price {
+  font-size: 3.5rem;
+  line-height: 2;
+  font-weight: 800;
+}
+
+.pricing-button {
+  width: 100%;
+  font-weight: 500;
+}
+
+/* Call to Action */
+
+/* Footer */
+
+#footer {
+  padding: 5% 15% 1%;
+}
+
+.footer-text {
+  font-weight: 500;
+}
+
+.footer-icon {
+  padding: 2% 1%;
+}
